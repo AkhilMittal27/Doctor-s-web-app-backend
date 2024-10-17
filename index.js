@@ -10,8 +10,7 @@ require('dotenv').config();
 //MiddleWares
 app.use(express.json());
 app.use(cors({
-    origin:'http://localhost:5173'
-    //    'https://edoctor-eight.vercel.app', 
+    origin:'https://doctor-s-web-app-k17z.vercel.app', 
 }));
 
 app.use(fileupload({
